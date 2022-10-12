@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="QuickSortTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2022-10-12T13:07:21" hostname="rongjins-iMac.local" time="0.03">
+<testsuite name="QuickSortTest" tests="2" skipped="0" failures="1" errors="0" timestamp="2022-10-12T13:44:39" hostname="rongjins-iMac.local" time="0.03">
   <properties/>
-  <testcase name="quickSortFaild()" classname="QuickSortTest" time="0.027">
+  <testcase name="quickSortFailed()" classname="QuickSortTest" time="0.028">
     <failure message="org.opentest4j.AssertionFailedError: array contents differ at index [4], expected: &lt;10&gt; but was: &lt;9&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: array contents differ at index [4], expected: &lt;10&gt; but was: &lt;9&gt;
 	at app//org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:39)
 	at app//org.junit.jupiter.api.AssertArrayEquals.failArraysNotEqual(AssertArrayEquals.java:432)
@@ -9,7 +9,7 @@
 	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:90)
 	at app//org.junit.jupiter.api.AssertArrayEquals.assertArrayEquals(AssertArrayEquals.java:86)
 	at app//org.junit.jupiter.api.Assertions.assertArrayEquals(Assertions.java:1277)
-	at app//QuickSortTest.quickSortFaild(QuickSortTest.java:18)
+	at app//QuickSortTest.quickSortFailed(QuickSortTest.java:18)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base@11.0.15/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base@11.0.15/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
